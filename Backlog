@@ -8,4 +8,86 @@
 + Skapa metoder för att lägga till, ta bort, uppdatera och hämta objekt från databasen.
 + Skapa en main-metod som instansierar MongoDBFacade-klassen och kör metoder för att lägga till, ta bort, uppdatera och hämta objekt från databasen.
 
+## Checklista från uppgiften:
 
+ Skapa ett nytt projekt i IntelliJ.
+
+ Koppla ditt projekt till ett nytt repository på Github.
+
+ Skapa en README.md-fil och skriv in checklista och backlog.
+
+ Lägg till nödvändiga beroenden i libraries
+
+ Lägg till Keyreader för att inte avslöja din connectionstring till databasen.
+
+ Skapa ett dokument med din connectionstring till databasen.
+
+ Pusha ditt projekt till Github.
+
+ Skapa Person-klassen med attributen "namn", "ålder" och "adress".
+
+ Skapa en konstruktor för Person-klassen.
+ Skapa getters och setters för attributen i Person-klassen.
+ Pusha ditt projekt till Github.
+
+ Skapa Kund-klassen som ärver från Person-klassen och har attributet "kundnummer".
+
+ Skapa en konstruktor för Kund-klassen som tar emot "namn", "ålder", "adress" och "kundnummer".
+ Skapa getters och setters för attributen i Kund-klassen.
+ Pusha ditt projekt till Github.
+
+ Skapa Anställd-klassen som ärver från Person-klassen och har attributet "anställningsnummer".
+
+ Skapa en konstruktor för Anställd-klassen som tar emot "namn", "ålder", "adress" och "anställningsnummer".
+ Skapa getters och setters för attributen i Anställd-klassen.
+ Pusha ditt projekt till Github.
+
+ Skapa en MongoDB-fasad som hanterar CRUD för Person och Anställd.
+
+ Skapa en connection till MongoDB.
+ Skapa en metod som skapar en ny Person i databasen.
+ Pusha ditt projekt till Github.
+ Skapa en metod som hämtar en Person från databasen.
+ Pusha ditt projekt till Github.
+ Skapa en metod som uppdaterar en Person i databasen.
+ Pusha ditt projekt till Github.
+ Skapa en metod som tar bort en Person från databasen.
+ Pusha ditt projekt till Github.
+ Skapa en metod som skapar en ny Anställd i databasen.
+ Pusha ditt projekt till Github.
+ Skapa en metod som hämtar en Anställd från databasen.
+ Pusha ditt projekt till Github.
+ Skapa en metod som uppdaterar en Anställd i databasen.
+ Pusha ditt projekt till Github.
+ Skapa en metod som tar bort en Anställd från databasen.
+ Pusha ditt projekt till Github.
+ Skapa en metod som hämtar alla Person-objekt från databasen.
+ Pusha ditt projekt till Github.
+ Skapa en metod som hämtar alla Anställd-objekt från databasen.
+ Pusha ditt projekt till Github.
+ Skapa en metod som söker efter Person-objekt i databasen.
+ Sök med objekt ID
+ Pusha ditt projekt till Github.
+ Sök med namn
+ Pusha ditt projekt till Github.
+ Sök med ålder
+ Pusha ditt projekt till Github.
+ Sök med adress
+ Pusha ditt projekt till Github.
+ Sök med kundnummer
+ Pusha ditt projekt till Github.
+ Sök med anställningsnummer
+ Skapa en main-metod som skapar och sparar Person-, Kund- och Anställd-objekt i databasen.
+
+ Skapa några Person-objekt, Kund-objekt och Anställd-objekt.
+ Spara dessa objekt i databasen.
+ Uppdatera några av objekten i databasen.
+ Ta bort några objekt från databasen.
+ Pusha ditt projekt till Github.
+ Skapa en README-fil med förklaringar till de MongoDB-anrop du använder i MongoDB-fasaden.
+
+ Pusha ditt projekt till Github.
+
+ Ladda ner projektet från Github i en zipfil.
+
+ Lämna in zipfilen hämtad från Github till classroom.

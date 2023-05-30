@@ -1,0 +1,32 @@
+## Alla nödvändiga MongoDB imports
++ behövs för att kunna använda MongoDB och ansluta
+
+## MongoClient client;
++ Deklarerar en ny MongoClient som heter client
+
+## MongoDatabase db;
++ Deklarerar en ny MongoDatabase som heter db
+
+## MongoCollection<Document> collection;
++ Deklarerar en ny MongoCollection som heter collection
+
+## MongoDB anslutningssträng
++ läses in av KeyReader klassen
+
+## Metoden Connect()
++ ansluter till MongoDB databasen
+
+## Metoder från MongoDB java driver som används i programmet
++ insertOne = lägger till en ny dokument i databasen
++ find = hämtar alla dokument i databasen
++ findOne = hämtar ett dokument i databasen
++ updateOne = uppdaterar ett dokument i databasen
++ deleteOne = tar bort ett dokument i databasen
++ createIndex = skapar en index i databasen
++ indexOptions = sätter index options
++ unique = sätter index till unikt
++ Document = skapar ett nytt dokument
++ remove = tar bort ett dokument i databasen
++ first = hämtar första dokumentet i databasen
++ replaceOne = ersätter ett dokument i databasen
++ deleteOne = tar bort ett dokument i databasen
