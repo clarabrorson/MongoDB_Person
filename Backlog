@@ -1,0 +1,11 @@
+## Backlog
+
++ Lägg till beroenden i library
++ Skapa alla nödvändiga klass-filer. En klass för varje typ av objekt, en MongoDBFacade samt en Keyreader.
++ Skapa Objektens klasser med dess attribut, konstruktor samt getters och setters
++ Skapa Keyreader-klassen samt lägg till connectionstring i ett dokument på datorn.
++ Instansiera nödvändiga klasser i MongoDBFacade-klassen samt skapa kontakt med databasen.
++ Skapa metoder för att lägga till, ta bort, uppdatera och hämta objekt från databasen.
++ Skapa en main-metod som instansierar MongoDBFacade-klassen och kör metoder för att lägga till, ta bort, uppdatera och hämta objekt från databasen.
+
+
